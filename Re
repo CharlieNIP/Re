@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資源中心</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 頁首導航欄 -->
+    <header>
+        <nav class="navbar">
+            <h1>資源中心</h1>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#library">資源庫</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h2>歡迎來到資源中心</h2>
+            <p>瀏覽並掃描QR碼以借閱資源。</p>
+        </div>
+    </header>
+
+    <!-- QR碼資源庫部分 -->
+    <section id="library">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="搜索資源..." />
+        </div>
+        <h2>QR碼資源庫</h2>
+        <div class="resource-grid">
+            <!-- 資源卡片示例 -->
+            <div class="resource-card">
+                <img src="images/book1-qr.png" alt="書籍1的QR碼">
+                <h3>書籍標題 1</h3>
+                <p>作者：張三</p>
+                <p>資源的簡短描述。</p>
+            </div>
+            <div class="resource-card">
+                <img src="images/book2-qr.png" alt="書籍2的QR碼">
+                <h3>書籍標題 2</h3>
+                <p>作者：李四</p>
+                <p>資源的簡短描述。</p>
+            </div>
+            <!-- 可根據需要添加更多資源卡片 -->
+        </div>
+    </section>
+
+    <!-- 聯絡方式 -->
+    <section id="contact">
+        <h2>聯絡我們</h2>
+        <p>如果您有任何問題，請通過電子郵件與我們聯繫：<a href="mailto:info@resourcescentre.com">info@resourcescentre.com</a></p>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2024 資源中心. 保留所有權利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
